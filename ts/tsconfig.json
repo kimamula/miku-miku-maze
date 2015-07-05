@@ -1,0 +1,17 @@
+{
+    "version": "1.5.0",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "outDir": "../js"
+    },
+    "files": [
+        "./server.ts",
+        "./client.ts",
+        "./lib/babylon.2.1.d.ts",
+        "../typings/tsd.d.ts"
+    ]
+}
