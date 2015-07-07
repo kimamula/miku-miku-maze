@@ -23,9 +23,9 @@ interface AppState {
 
 class App extends TypedReact.Component<AppProps, AppState> {
     private top = React.DOM.div(null,
-        React.DOM.p(null, React.DOM.big(null, 'Run')),
         React.DOM.p(null, React.DOM.big(null, 'Miku')),
-        React.DOM.p(null, React.DOM.big(null, 'Run')),
+        React.DOM.p(null, React.DOM.big(null, 'Miku')),
+        React.DOM.p(null, React.DOM.big(null, 'Maze')),
         React.DOM.button({'className': 'btn btn-primary', 'onClick': () => {this.onClickGameStart()}}, 'Start game'),
         React.DOM.div({'style': {'bottom': 0, 'right': 0, 'position': 'absolute'}},
             React.DOM.h3(null, 'Materials used'),

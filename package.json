@@ -1,5 +1,5 @@
 {
-  "name": "run-miku-run",
+  "name": "miku-miku-maze",
   "version": "0.0.1",
   "main": "js/server.js",
   "scripts": {
