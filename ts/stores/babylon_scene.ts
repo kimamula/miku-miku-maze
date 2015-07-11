@@ -86,7 +86,6 @@ export class BabylonSceneStore {
                 characterMesh.position.addInPlace(
                     this.convertToVector3(mazeData.map, mazeCubeSize, mazeData.start)
                 );
-                console.log(characterMesh.material);
 
                 scene.activeCamera = followCamera;
                 scene.activeCamera.attachControl(engine.getRenderingCanvas());
@@ -221,7 +220,6 @@ export class BabylonSceneStore {
         cubeMaterial.bumpTexture = new BABYLON.Texture('babylon/environment/masonry-wall-bump-map.jpg', scene);
         cubeMaterial.specularTexture = new BABYLON.Texture('babylon/environment/masonry-wall-normal-map.jpg', scene);
         cubeMaterial.diffuseColor = new BABYLON.Color3(0.1, 0.1, 0.1);
-        console.log(cubeMaterial);
 
         maze.forEach((row: boolean[], rowIndex: number) => {
             row.forEach((existsCube: boolean, columnIndex: number) => {
